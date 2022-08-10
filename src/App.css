@@ -12,8 +12,8 @@
  }
  
  .activeCard {
-    color: red;
-    background: black;
+    color: rgb(28, 37, 105);
+    background: rgb(242, 242, 242);
  }
 
  

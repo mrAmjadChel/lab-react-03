@@ -18,7 +18,6 @@ import _ ,{attemp}from 'lodash';
    
 export default function WordCard(props){
 
-    
     const [state, setState] = useState(prepareStateFromWord(props.value))
 
     const activationHandler = (c) => {
@@ -29,9 +28,12 @@ export default function WordCard(props){
         
         if(guess.length == state.word.length){
             if(guess == state.word){
+                alert("Your correct ,\n Answer is " + guess)
                 console.log('yeah!')
-                setState({...state, guess: '', completed: true})
+                setState({...state, completed: true})
+                window.location.reload();
             }else{
+                alert("Don't give up,Try Again!!")
                 console.log('reset')
                 setState({...state, guess: '', attempt: state.attempt + 1})
             }
