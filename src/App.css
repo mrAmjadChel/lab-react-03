@@ -8,10 +8,13 @@
     background-color: cyan;
     margin: 1em;
     user-select: none;
+    font-size: large;
  }
  
  .activeCard {
     color: red;
     background: black;
  }
+
+ 
  
