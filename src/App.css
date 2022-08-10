@@ -4,13 +4,14 @@
     width: 3em;
     font-size: 2em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color:darkcyan;
+    background-color: cyan;
     margin: 1em;
     user-select: none;
  }
-
+ 
  .activeCard {
     color: red;
-    background: pink;
+    background: black;
  }
- 
  
