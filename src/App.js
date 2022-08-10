@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import CharacterCard from './CharacterCard';
 
 const word = "Hello";
